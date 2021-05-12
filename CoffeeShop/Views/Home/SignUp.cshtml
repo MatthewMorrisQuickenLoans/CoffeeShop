@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "SignUp";
+}
+
+<h1>Sign Up!</h1>
+<p>We just need some addational infromation to get </p>
+<form method="post" action="/home/SignupLP">
+
+    <label for="fname">First Name:</label><br />
+    <input type="text" id="fname" name="firstname" required/><br /><br />
+
+    <label for="lname">Last Name: </label> <br />
+    <input type="text" id="lname" name="lastname" required/><br /><br />
+
+    <label for="ffood"> Favorite Food: </label><br />
+    <input type="text" id="ffood" name="favoritefood" /><br /><br />
+
+    <label for="fmusic"> Favorite Band: </label> <br />
+    <input type="text" id="fmusic" name="favoriteband" /><br /><br />
+
+    <label for="fcoffee"> Favorite Coffee: </label> <br />
+    <input type="text" id="fcoffee" name="favoritecoffee" /><br /><br />
+
+    <label for="password"required> Password: </label> <br />
+    <input type="password" id="password"  name="password" required/><br /><br />
+
+    <label for="password"> Confrim Password: </label> <br />
+    <input type="password" id="cpassword" name="confrimpassword" required/><br /><br />
+    <input type="submit" />
+
+</form>

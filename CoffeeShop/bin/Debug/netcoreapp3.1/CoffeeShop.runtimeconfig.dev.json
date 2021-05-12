@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\MMORRIS3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MMORRIS3\\.nuget\\packages"
+    ]
+  }
+}
